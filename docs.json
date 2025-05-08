@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Iristick Knowledge Base",
   "colors": {
     "primary": "#4da198",
     "light": "#e8efef",
@@ -14,27 +14,35 @@
         "tab": "Tools",
         "groups": [
           {
+            "group": "Get Started",
+            "pages": [
+              "tools/get-started/index"
+            ]
+          },
+          {
+            "group": "Smart Glass Models",
+            "pages": [
+              "tools/models/G2-PRO",
+              "tools/models/G3-PRO",
+              "tools/models/H1"
+            ]
+          },
+          {
             "group": "Shipping",
             "pages": [
-              "get-started/index",
-              "get-started/quickstart",
-              "get-started/development"
+              
             ]
           }, 
           {
             "group": "Certifications",
             "pages": [
-              "get-started/index",
-              "get-started/quickstart",
-              "get-started/development"
+              
             ]
           },
           {
             "group": "Downloads",
             "pages": [
-              "get-started/index",
-              "get-started/quickstart",
-              "get-started/development"
+              
             ]
           }
         ]
