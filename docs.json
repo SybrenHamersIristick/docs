@@ -12,17 +12,17 @@
     "tabs": [
       {
         "tab": "Tools",
-        "groups" : []
-      },
-      {
-        "tab": "Products",
-        "groups" : []
-      },
-      {
-        "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Shipping",
+            "pages": [
+              "get-started/index",
+              "get-started/quickstart",
+              "get-started/development"
+            ]
+          }, 
+          {
+            "group": "Certifications",
             "pages": [
               "get-started/index",
               "get-started/quickstart",
@@ -30,28 +30,26 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Tools",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "get-started/index",
+              "get-started/quickstart",
+              "get-started/development"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          }
-        ]
+        "tab": "Collector",
+        "groups" : []
+      },
+      {
+        "tab": "Teams",
+        "groups" : []
+      },
+      {
+        "tab": "WizzEye",
+        "groups" : []
       }
     ],
     "global": {
