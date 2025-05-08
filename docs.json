@@ -4,21 +4,29 @@
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#4da198",
-    "light": "#07C983",
+    "light": "#e8efef",
     "dark": "#1d1d1f"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
+      {
+        "tab": "Tools",
+        "groups" : []
+      },
+      {
+        "tab": "Products",
+        "groups" : []
+      },
       {
         "tab": "Guides",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "get-started/index",
+              "get-started/quickstart",
+              "get-started/development"
             ]
           },
           {
@@ -69,8 +77,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Iristick",
+      "href": "https://iristick.com"
     }
   },
   "footer": {
